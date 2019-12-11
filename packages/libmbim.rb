@@ -3,9 +3,9 @@ require 'package'
 class Libmbim < Package
   description 'libmbim is a glib-based library for talking to WWAN modems and devices which speak the Mobile Interface Broadband Model (MBIM) protocol.'
   homepage 'https://www.freedesktop.org/wiki/Software/libmbim/'
-  version '1.16.2'
-  source_url 'https://www.freedesktop.org/software/libmbim/libmbim-1.16.2.tar.xz'
-  source_sha256 'eb494fee2c200daf4f5cc8a40061d24a3dfafe8c59151c95c6a826fd96dcb262'
+  version '1.20.2'
+  source_url 'https://www.freedesktop.org/software/libmbim/libmbim-1.20.2.tar.xz'
+  source_sha256 '550fb69e5e57f7646f8eb9ed8d24e44ea869ad846be9c162893f12e43528059b'
 
   binary_url ({
     aarch64: 'https://dl.bintray.com/chromebrew/chromebrew/libmbim-1.16.2-chromeos-armv7l.tar.xz',
